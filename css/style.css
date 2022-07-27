@@ -894,11 +894,12 @@ button{
     margin-bottom: 20px;
 }
 
-.pp-body div{
-    margin-bottom: 20px;
-}
-.pp-body p ,h4{
+.pp-body div, p{
     margin-top: 10px;
+}
+.pp-body h2,h3,h4,h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .pp-body .general-info li{
     margin-bottom: 10px;
@@ -987,6 +988,34 @@ button{
     background-color: var(--main-color);
     margin-top: 10px;
 }
+
+
+
+.usability-studies ul li{
+  margin-left: 20px;
+  margin-top: 10px;
+  list-style: disc;
+}
+.accessibility li{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.next-steps li{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+.thanks{
+    text-align: center;
+    width: 100%;
+}
+
+.movie{
+    width: 50%;
+    height: 50%;
+}
+
 
 /* Responsive */
 
