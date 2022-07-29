@@ -18,6 +18,9 @@
 
 /* Global Settings */
 
+
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -1075,7 +1078,28 @@ button{
     margin: 20px 0;
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
+  .tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 
 @media(max-width :767px){
     .contact-info
@@ -1091,6 +1115,7 @@ button{
     }
     .pp-inner{
         padding: 30px 15px;
+        margin: 0 15px;
     }
     .contact-info{
         order: -1;
